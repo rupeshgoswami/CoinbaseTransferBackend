@@ -5,30 +5,6 @@ Repository Structure
 For organization, the frontend and backend are placed in separate folders within this repository.
 
 bash
-Copy code
-/coinbase-transfer-app
-├── README.md                          # Project instructions (this file)
-├── coinbase-transfer-frontend         # Frontend (Vue.js)
-│   ├── src
-│   │   ├── components
-│   │   │   └── CoinbaseTransfer.vue   # Main component for transfer operations
-│   │   ├── App.vue                    # Main app component
-│   │   ├── main.js                    # Entry point for Vue.js
-│   │   └── assets                     # (Optional) Static assets like images
-│   ├── public
-│   │   └── index.html                 # Main HTML template
-│   └── package.json                   # Project configuration for frontend
-└── coinbase-transfer-backend          # Backend (Java Spring Boot)
-    ├── src
-    │   └── main
-    │       ├── java
-    │       │   └── com/example/JavaTestCoinbasePayment
-    │       │       ├── JavaTestCoinbasePaymentApplication.java  # Main Spring Boot Application
-    │       │       ├── CoinbaseController.java                  # API controller
-    │       │       └── CoinbaseService.java                     # Service for handling business logic
-    │       └── resources
-    │           └── application.properties                       # Backend configuration
-    └── pom.xml                                                  # Project configuration for Maven
 Instructions for Setup and Running
 Prerequisites
 Make sure you have the following installed:
@@ -98,19 +74,6 @@ This is the frontend for the Coinbase Transfer application. It allows users to b
 Project Structure
 The project structure follows the standard Vue.js setup. Here’s where to place the main files:
 
-bash
-Copy code
-/coinbase-transfer-frontend
-├── src
-│   ├── components
-│   │   └── CoinbaseTransfer.vue   # Main component for transfer operations
-│   ├── App.vue                    # Main app component
-│   ├── main.js                    # Entry point for Vue.js
-│   └── assets                     # (Optional) Static assets like images
-├── public
-│   └── index.html                 # Main HTML template
-├── package.json                   # Project configuration
-└── README.md                      # Project instructions (this file)
 src/components/CoinbaseTransfer.vue: This file contains the main UI component for transfer operations. Place it in the components folder inside src.
 src/App.vue: The main application file that imports and displays CoinbaseTransfer.vue. Place it directly in the src folder.
 Setup Instructions
